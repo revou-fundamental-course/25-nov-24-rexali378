@@ -1,0 +1,105 @@
+.main-header{
+    text-align: center;
+    padding-top: 16px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.main-section{
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 16px;
+    border: 3px solid;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.hasil, .penyakit {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: aliceblue;
+    padding: 16px;
+    border: 3px solid;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#result-calculation p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.hasil button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+select{
+    display: block;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.right-button{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    gap: 5px;
+}
+
+.red-button{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.green-button{
+    background-color: transparent;
+    color: green;
+    border: 2px solid green;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.playStore, .appleStore{
+    width: 150px;
+}
